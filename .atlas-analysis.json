@@ -1,0 +1,148 @@
+{
+  "projectType": "saas",
+  "projectName": "OpenPanel",
+  "projectDescription": "Open-source web and product analytics platform with session replay, funnels, and A/B testing",
+  "theme": "mint",
+  "primaryColor": "#848484",
+  "lightColor": "#101010",
+  "darkColor": "#c1c1c1",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "why-openpanel",
+              "comparison"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "get-started/quickstart",
+              "get-started/create-project",
+              "get-started/first-event"
+            ]
+          },
+          {
+            "group": "Tracking",
+            "pages": [
+              "tracking/overview",
+              "tracking/events",
+              "tracking/user-profiles",
+              "tracking/sdks/javascript",
+              "tracking/sdks/nextjs",
+              "tracking/sdks/react-native",
+              "tracking/sdks/nuxt",
+              "tracking/sdks/astro",
+              "tracking/sdks/express"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/dashboards",
+              "features/funnels",
+              "features/cohorts",
+              "features/session-replay",
+              "features/ab-testing",
+              "features/notifications",
+              "features/real-time"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/installation",
+              "self-hosting/configuration",
+              "self-hosting/upgrading",
+              "self-hosting/troubleshooting"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/privacy",
+              "guides/integrations",
+              "guides/migration",
+              "guides/best-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "api/overview",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Event Ingestion",
+            "pages": [
+              "api/event/track",
+              "api/event/identify",
+              "api/event/batch"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "api/analytics/charts",
+              "api/analytics/funnels",
+              "api/analytics/cohorts",
+              "api/analytics/profiles"
+            ]
+          },
+          {
+            "group": "Management",
+            "pages": [
+              "api/management/projects",
+              "api/management/dashboards",
+              "api/management/organizations"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Advanced analytics with funnels, cohorts, and user profiles",
+    "Session replay with privacy controls",
+    "Real-time dashboards and live data updates",
+    "Built-in A/B testing with variant breakdowns",
+    "Event and funnel-based notifications",
+    "Privacy-first cookieless tracking",
+    "Multi-platform SDKs (Web, React Native, Next.js, Nuxt, Astro, Express)",
+    "Self-hosting with Docker Compose",
+    "Transparent pricing with no hidden costs"
+  ],
+  "publicApiSurface": [
+    "POST /track - Track events",
+    "POST /identify - Identify users",
+    "POST /batch - Batch event ingestion",
+    "GET /live - Real-time event stream",
+    "tRPC router: chart",
+    "tRPC router: dashboard",
+    "tRPC router: event",
+    "tRPC router: profile",
+    "tRPC router: session",
+    "tRPC router: funnel (insight)",
+    "tRPC router: notification",
+    "tRPC router: project",
+    "tRPC router: organization",
+    "@openpanel/sdk - JavaScript SDK",
+    "@openpanel/nextjs - Next.js SDK",
+    "@openpanel/react-native - React Native SDK",
+    "@openpanel/nuxt - Nuxt SDK",
+    "@openpanel/astro - Astro SDK",
+    "@openpanel/express - Express SDK"
+  ]
+}
